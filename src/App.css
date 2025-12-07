@@ -1,0 +1,17 @@
+/* App.css
+   Keep this file very minimal.
+   We use mostly inline styles in React components. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* We don't style inputs or buttons globally on purpose,
+   so the inline styles in our components stay in control. */
